@@ -1,0 +1,118 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/jquery-1.8.3.min.js",
+			"font/iconfont.woff",
+			"css/common.css",
+			"css/iconfont.css",
+			"js/index.js",
+			"html/search.html",
+			"html/bookrack.html",
+			"html/personalcenter.html",
+			"html/catalog.html"
+		],
+		"refer": [
+			"html/search.html",
+			"html/bookrack.html",
+			"html/personalcenter.html",
+			"html/catalog.html"
+		]
+	},
+	"html/search.html": {
+		"resources": [
+			"js/search.js",
+			"css/seach.css",
+			"html/catalog.html",
+			"js/jquery-1.8.3.min.js",
+			"font/iconfont.woff",
+			"css/common.css",
+			"css/iconfont.css",
+			"index.html"
+		],
+		"refer": [
+			"html/catalog.html",
+			"index.html"
+		]
+	},
+	"html/catalog.html": {
+		"resources": [
+			"js/catalog.js",
+			"css/catalog.css",
+			"html/read.html",
+			"index.html",
+			"html/search.html",
+			"js/jquery-1.8.3.min.js",
+			"font/iconfont.woff",
+			"css/common.css",
+			"css/iconfont.css",
+			"html/bookrack.html"
+		],
+		"refer": [
+			"html/read.html",
+			"index.html",
+			"html/search.html",
+			"html/bookrack.html"
+		]
+	},
+	"html/read.html": {
+		"resources": [
+			"css/read.css",
+			"html/catalog.html",
+			"js/read.js"
+		],
+		"refer": [
+			"html/catalog.html"
+		]
+	},
+	"html/bookrack.html": {
+		"resources": [
+			"html/search.html",
+			"css/bookrack.css",
+			"js/bookrack.js",
+			"html/personalcenter.html",
+			"index.html",
+			"html/catalog.html"
+		],
+		"refer": [
+			"html/search.html",
+			"html/personalcenter.html",
+			"index.html",
+			"html/catalog.html"
+		]
+	},
+	"html/personalcenter.html": {
+		"resources": [
+			"css/personalcenter.css",
+			"js/personalcenter.js",
+			"html/bookrack.html",
+			"html/login.html",
+			"index.html",
+			"js/jquery-1.8.3.min.js",
+			"font/iconfont.woff",
+			"css/common.css",
+			"css/iconfont.css"
+		],
+		"refer": [
+			"html/bookrack.html",
+			"html/login.html",
+			"index.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"css/login.css",
+			"js/login.js",
+			"index.html",
+			"js/jquery-1.8.3.min.js",
+			"font/iconfont.woff",
+			"css/common.css",
+			"css/iconfont.css",
+			"html/personalcenter.html"
+		],
+		"refer": [
+			"index.html",
+			"html/personalcenter.html"
+		]
+	}
+}

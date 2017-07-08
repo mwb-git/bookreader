@@ -1,0 +1,30 @@
+html,body{height: 100%; width: 100%;}
+#content{height: 100%; width: 100%; display: flex; flex-direction: column; font-size: .16rem;}
+
+header{display: flex; width: 100%; height: .44rem; border-bottom: .02rem solid #666;background:honeydew;}
+header #cancel{font-size: .24rem; width: 15%; height: .44rem; text-align: center; line-height: .44rem;color: orangered;}
+header h3{font-size: .2rem; width:85%; height: .44rem; text-align: center; line-height: .44rem; color: red; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+section{flex:1; display: flex; flex-direction: column; overflow: auto; padding-top: .2rem; background: lightgoldenrodyellow;}
+
+
+
+footer{ width: 100%; height: .44rem; border-top: .02rem solid #666;display: flex;background: honeydew; display: flex; flex-direction: row;  position: relative;}
+footer #down_and_up{position: absolute; height: .36rem; width: 100%; line-height: .36rem; top: -.36rem; left: 0; background:lightgoldenrodyellow ; border-top: .02rem solid #ccc;border-bottom: .02rem solid #ccc;}
+footer #down_and_up #up{display: inline-block; width: 49%; text-align: center;height: .36rem;line-height: .36rem; border-left: .02rem solid #ccc;}
+footer #down_and_up #down{display: inline-block; width: 49%; text-align: center;height: .36rem;line-height: .36rem;}
+footer #chapterlist{flex:1; line-height: .44rem; text-align: center; color: #666;}
+footer #day_and_night{flex:1; line-height: .44rem; text-align: center;color: #666;}
+footer #set{flex:1; line-height: .44rem; text-align: center; color: #666;}
+
+
+#setcontent{font-size: .16rem; position: absolute; bottom:.44rem; height: .5rem;  width: 100%;  border: .02rem solid #ccc; background: #fff;}
+#setcontent>div{height: .5rem; line-height: .5rem; text-indent: .1rem; border-bottom: .02rem solid #ccc;}
+
+#setcontent #first b{padding:.13rem .14rem .13rem .14rem;}
+
+#setcontent #first #add,#reduce{font-size: .2rem;}
+#setcontent #secand div{float:left;}
+#setcontent #secand .bgcolor{height: .25rem; width: .25rem; background: #ccc;}
+
+#setcontent #third{border-bottom: none;}

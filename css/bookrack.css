@@ -1,0 +1,20 @@
+html,body{height: 100%; width: 100%;}
+#content{height: 100%; width: 100%; display: flex; flex-direction: column; font-size: .16rem;}
+
+header{display: flex; width: 100%; height: .44rem; border-bottom: .02rem solid #666;background:honeydew;}
+header #cancel{font-size: .24rem; width: 15%; height: .44rem; text-align: center; line-height: .44rem;color: orangered;}
+header #header_bookrack{font-size: .24rem; width:70%; height: .44rem;text-indent: 30%; line-height: .44rem; color: red;}
+header #header_search{font-size: .24rem; width: 15%; height: .44rem; text-align: center; line-height: .44rem;color: orangered;}
+
+section{flex:1; display: flex; flex-direction: column;}
+section>div{ background: lightgoldenrodyellow; color: #666; border-bottom: .02rem solid #ccc; height: .86rem;}
+section>div .bookname{height: .32rem; line-height: .32rem; text-indent: .1rem; font-size: .22rem;}
+section>div .author{text-indent: .1rem; height: .24rem; line-height: .24rem; font-size: .2rem; color: orangered;}
+section>div .cancel_collect{height: .3rem; line-height: .3rem; font-size: .2rem; text-indent: .1rem; color: blue; }
+section #reminder_first{height: .6rem; width: 100%; line-height: .6rem; font-size: .16rem; text-align: center; display: none;}
+section #reminder_secand{height: .6rem; width: 100%; line-height: .6rem; font-size: .16rem; text-align: center; color: blue; display: none;}
+
+footer{ width: 100%; height: .44rem; border-top: .02rem solid #666;display: flex;background: honeydew; display: flex; flex-direction: row;}
+footer #index{flex:1; line-height: .44rem; text-align: center; color: #666;}
+footer #bookrack{flex:1; line-height: .44rem; text-align: center; color: red; }
+footer #my_accounts{flex:1; line-height: .44rem; text-align: center; color: #666;}

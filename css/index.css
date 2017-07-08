@@ -1,0 +1,29 @@
+html,body{height: 100%; width: 100%;}
+#content{height: 100%; width: 100%; display: flex; flex-direction: column; font-size: .16rem;}
+
+header{display: flex; width: 100%; height: .44rem; border-bottom: .02rem solid #666;background:honeydew;}
+header #cancel{font-size: .24rem; width: 15%; height: .44rem; text-align: center; line-height: .44rem;color: orangered;}
+header #header_index{font-size: .24rem; width:70%; height: .44rem;text-indent: 30%; line-height: .44rem; color: red;}
+header #header_search{font-size: .24rem; width: 15%; height: .44rem; text-align: center; line-height: .44rem;color: orangered;}
+
+
+
+#classify{background: cornflowerblue; height: .6rem; widows: 100%;}
+#classify>span{display: inline-block; height: .3rem; width: 24%; text-align: center; line-height: .3rem;font-size: .2rem;  color: #fff;}
+#day_recommend{height: .36rem; margin: 0 3% 0 3%; border-bottom: .03rem solid #FF0000; line-height: .36rem ;  width: 94%;}
+
+section{flex:1; display: flex; flex-direction: column;}
+section #list{overflow: auto;}
+section #list div{height: .36rem;margin: 0 3% 0 3%; border-bottom: .02rem solid #ccc; line-height: .36rem ;  font-size: .2rem;
+ white-space: nowrap; width: 94%; overflow: hidden; text-overflow: ellipsis;}
+
+footer{ width: 100%; height: .44rem; border-top: .02rem solid #666;display: flex;background: honeydew; display: flex; flex-direction: row; position: relative;}
+footer #index{flex:1; line-height: .44rem; text-align: center; color: red;}
+footer #bookrack{flex:1; line-height: .44rem; text-align: center; color: #666; }
+footer #my_accounts{flex:1; line-height: .44rem; text-align: center; color: #666; }
+footer  #exit{position: absolute; top: -.36rem; right: 0; height: .36rem; width: 33%; background: cornflowerblue; color: #fff; 
+line-height: .36rem; text-align: center;}
+
+
+
+
