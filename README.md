@@ -1,7 +1,7 @@
 # bookreader
 很早之前的写的一个小说阅读器的练习项目，可以到http://mwbweixin.duapp.com/BookReader/index.html 查看， 记得打开F12控制台转换成手机模式哦，最好在谷歌浏览器下，其他的可能会存在兼容问题。
 
-页面采用rem布局。 小说在网上找的！ 部分数据存储用的是localstroge。
+页面采用rem布局。 小说接口在网上找的！ 部分数据存储用的是localstroge。
 
 自己写了简易的登录注册后台。
 
